@@ -1,0 +1,100 @@
+section{
+  padding: 15px;
+  font-size: 12px;
+}
+.imgCellP{
+  width: 100%;
+}
+.cellphon{
+  width: 100%;
+  padding: 15px;
+  margin: 5px;
+}
+.cellphon:hover{
+  box-shadow: 0 0 10px darkblue;
+}
+.send{
+  display: flex;
+}
+.sendIcon{
+  width: 18px;
+  height: 21px;
+  margin-left: 3px;
+}
+.sendText{
+  padding-top: 3px;
+}
+.parentSends{
+  display: flex;
+  justify-content: space-between;
+}
+.celdis{
+  text-align: justify;
+}
+.price{
+  display: flex;
+  justify-content: flex-end;
+}
+.dl{
+  position: relative;
+}
+.vl{
+  position: absolute;
+  top: 18px;
+  border-top:1px solid dimgray;
+  width: 100%;
+}
+.pl{
+  position: absolute;
+  top: 5px;
+  z-index: 1;
+  background-color: white;
+  color: dimgray;
+  padding: 5px;
+}
+.thumb{
+  width: 18px;
+  margin-left: 5px;
+}
+.thumbtext{
+  padding-top: 15px;
+}
+.insurence{
+  display: flex;
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+.insurence1{
+  border-right: 1px solid gray;
+  margin-right: 20px;
+  padding: 5px;
+}
+.inputBimeh{
+  margin-right: 10px;
+}
+a , .category{
+  text-decoration: none;
+  color: dodgerblue;
+  font-weight: bold;
+}
+.sendSell{
+  display-direction: column;
+}
+.thumbtextgreen{
+  padding-top: 15px;
+  color: green;
+}
+button{
+  color: white;
+  font-weight: bold;
+  width: 100%;
+  padding: 15px;
+  background-color: #ea1a33;
+  border-radius: 10px;
+  border: 2px solid #ea1a33;
+}
+.shadow{
+  box-shadow: 0 0 10px darkblue;
+  padding: 10px;
+  margin: 5px;
+}
